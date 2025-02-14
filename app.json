@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "app",
+    "name": "Study Planner",
     "slug": "app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.akshar_kacha.Study_Planner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0ab69e5c-4082-4dac-9f2d-5163369a109c"
+      }
     }
   }
 }
